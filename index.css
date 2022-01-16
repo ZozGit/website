@@ -5,86 +5,98 @@
     box-sizing: border-box;
 }
 
-html,body{
+html, body {
     overflow-x: hidden;
-    
-  }
+}
+
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
     background: black;
 }
-@media only screen and (max-width: 992px){
+
+@media only screen and (max-width: 992px) {
     .navbar-nav.navbar-center {
         position: relative;
-  }
+    }
 }
-.nav-name{
+
+.nav-name {
     font-size: 2rem;
     font-weight: bolder;
     font-family: 'Mochiy Pop P One', sans-serif;
 }
-.nav-element{
+
+.nav-element {
     font-size: 1.5rem;
     padding-right:20px ;
     font-family: 'Mochiy Pop P One', sans-serif;
-    
+
 }
-.main-intro{
+
+.main-intro {
     padding-top: 12vh;
 }
 
-.text-container{
+.text-container {
     background-color: #FFAB76;
 }
-.h1-main{
+
+.h1-main {
     font-size: 6vw;
     font-weight: bolder;
     font-family: 'Orelega One', cursive;
 }
-.h3-main{
+
+.h3-main {
     font-size: 2vw;
     font-family: 'Handlee', cursive;
-   
+
 }
-.h4-main{
+
+.h4-main {
     font-size: 1.5vw;
     font-family: 'Handlee', cursive;
-   
+
 }
-.about-head{
+
+.about-head {
     font-weight: bolder;
     font-family: 'Mochiy Pop P One', sans-serif;
     font-size: 2.5vw;
 }
-@media only screen and (max-width: 768px){
-    .h1-main{
+
+@media only screen and (max-width: 768px) {
+    .h1-main {
         font-size: 30px;
     }
-    .h3-main{
+    .h3-main {
         font-size: 15px;
     }
-    .h4-main{
+    .h4-main {
         font-size: 12px;
     }
-    .img-fluid-carousel{
-   height:400px ;
-   margin: auto;
+    .img-fluid-carousel {
+        height:400px ;
+        margin: auto;
     }
-    .about-head{
+    .about-head {
         font-size: 25px;
     }
 }
-.about-text{
+
+.about-text {
     font-size: 1.5vw;
     font-family: 'Handlee', cursive;
 }
-@media only screen and (max-width: 1500px){
+
+@media only screen and (max-width: 1500px) {
     .about-text{
         font-size: 20px;
-  }
+    }
 }
+
 /* .card-block {
     font-size: 1em;
     position: relative;
@@ -93,7 +105,7 @@ html,body{
     border: none;
     border-top: 1px solid rgba(34, 36, 38, .1);
     box-shadow: none;
-     
+
 }
 .card {
     font-size: 1em;
@@ -124,17 +136,18 @@ html,body{
     height: 12px;
 }
 .carousel-control-prev-icon {
-   
+
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
     filter: invert(100%);
-   }
-   
-   .carousel-control-next-icon {
-     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-     filter: invert(100%);
-   }
-.h-effect:hover{
-cursor: pointer;
 }
- 
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    filter: invert(100%);
+}
+
+.h-effect:hover {
+    cursor: pointer;
+}
+
 
