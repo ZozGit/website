@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="bootstrap-4.6.1/dist/css/bootstrap.min.css">
+<!--    <link rel="stylesheet" href="bootstrap-4.6.1/dist/css/bootstrap.min.css">-->
 
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +25,7 @@
 <body data-spy="scroll">
     <div id="spy" >
     
-        <!--NAVBAR STARTING-->
+        <!-- NavBar Start -->
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top navigation">
 
 
@@ -55,12 +55,13 @@
             </div>
 
         </nav>
-        <!-- NAVBAR END -->
-    
+        <!-- NavBar End -->
+
+        <!-- Main Div Start-->
         <div>
 
             <!-- Home start -->
-            <div id="Home" style=" background-color: rgb(194, 229, 229);
+            <section id="Home" style=" background-color: rgb(194, 229, 229);
             margin-bottom: 0;">
 
                 <div class="main-intro">
@@ -73,11 +74,11 @@
                     <img src="img/zoz_logo.png" class="rounded mx-auto d-block img-fluid" alt="...">
                 </div>
 
-            </div>
+            </section>
             <!-- Home end -->
 
             <!-- About Start -->
-            <div class="card my-0" id="About">
+            <section id="About" class="card my-0">
                 <div class="row my-0">
                     <div class="col-md-6 col-xl-8 px-3 my-0 text-container">
                         <div class="card-block px-6 p-5">
@@ -109,7 +110,7 @@
 
                         </div>
                     </div>
-                    <!-- Carousel start -->
+                    <!-- Carousel Start -->
                     <div class="col-md-6 col-xl-4 my-auto">
                         <div id="CarouselTest-4" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
@@ -139,29 +140,21 @@
                             </div>
                         </div>
                     </div>
-                    <!-- End of carousel -->
+                    <!-- Carousel End -->
                 </div>
-            </div>
+            </section>
             <!-- About End -->
 
-            <!-- Events start -->
+            <!-- Events Start -->
             <section id="Events" class="container-fluid" style="background: lightgoldenrodyellow">
                 <br>
                 <h3 class="card-title text-center about-head mb-5 mt-4">Events</h3>
 
-<!--                <div class="row row-cols-sm-1 row-cols-md-2 rows-cols-lg-3 justify-content-center">-->
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 justify-content-center">
-                    <div class="card col border-0 m-4" style="background: lightgoldenrodyellow">
-                        <a href="#">
-                            <img class="card-img-top shadowed" src="img/twiIsToThree.jpg" alt="Card image cap">
-                        </a>
-                        <div class="card-body text-center" style="padding: 10px;" >
-                            <h4 class="card-title justify-content-center">Event Name</h4>
-                            <a href="#" class="btn btn-custom">MORE INFO</a>
-                        </div>
-                    </div>
+                <!-- Events Row Start -->
+                <div class="row row-cols-1 justify-content-center">
 
-                    <div class="card col border-0 m-4" style="background: lightgoldenrodyellow">
+                    <!-- Event 1 Start -->
+                    <div class="card col border-0 m-5" style="background: lightgoldenrodyellow">
                         <a href="#">
                             <img class="card-img-top shadowed" src="img/twiIsToThree.jpg" alt="Card image cap">
                         </a>
@@ -170,18 +163,22 @@
                             <a href="#" class="btn btn-custom">MORE INFO</a>
                         </div>
                     </div>
+                    <!-- Event 1 End -->
 
-                    <div class="card col border-0 m-4" style="background: lightgoldenrodyellow">
+                    <!-- Event 2 Start -->
+                    <div class="card col border-0 m-5" style="background: lightgoldenrodyellow">
                         <a href="#">
                             <img class="card-img-top shadowed" src="img/twiIsToThree.jpg" alt="Card image cap">
                         </a>
-                        <div class="card-body text-center" style="padding: 10px;" >
+                        <div class="card-body text-center" style="padding: 10px;">
                             <h4 class="card-title justify-content-center">Event Name</h4>
                             <a href="#" class="btn btn-custom">MORE INFO</a>
                         </div>
                     </div>
+                    <!-- Event 2 End -->
 
-                    <div class="card col border-0 m-4" style="background: lightgoldenrodyellow">
+                    <!-- Event 3 Start -->
+                    <div class="card col border-0 m-5" style="background: lightgoldenrodyellow">
                         <a href="#">
                             <img class="card-img-top shadowed" src="img/twiIsToThree.jpg" alt="Card image cap">
                         </a>
@@ -190,8 +187,10 @@
                             <a href="#" class="btn btn-custom">MORE INFO</a>
                         </div>
                     </div>
+                    <!-- Event 3 End -->
 
-                    <div class="card col border-0 m-4" style="background: lightgoldenrodyellow">
+                    <!-- Event 4 Start -->
+                    <div class="card col border-0 m-5" style="background: lightgoldenrodyellow">
                         <a href="#">
                             <img class="card-img-top shadowed" src="img/twiIsToThree.jpg" alt="Card image cap">
                         </a>
@@ -200,8 +199,10 @@
                             <a href="#" class="btn btn-custom">MORE INFO</a>
                         </div>
                     </div>
+                    <!-- Event 4 End -->
 
-                    <div class="card col border-0 m-4" style="background: lightgoldenrodyellow">
+                    <!-- Event 5 Start -->
+                    <div class="card col border-0 m-5" style="background: lightgoldenrodyellow">
                         <a href="#">
                             <img class="card-img-top shadowed" src="img/twiIsToThree.jpg" alt="Card image cap">
                         </a>
@@ -210,12 +211,35 @@
                             <a href="#" class="btn btn-custom">MORE INFO</a>
                         </div>
                     </div>
+                    <!-- Event 5 End -->
+
+                    <!-- Event 6 Start -->
+                    <div class="card col border-0 m-5" style="background: lightgoldenrodyellow">
+                        <a href="#">
+                            <img class="card-img-top shadowed" src="img/twiIsToThree.jpg" alt="Card image cap">
+                        </a>
+                        <div class="card-body text-center" style="padding: 10px;" >
+                            <h4 class="card-title justify-content-center">Event Name</h4>
+                            <a href="#" class="btn btn-custom">MORE INFO</a>
+                        </div>
+                    </div>
+                    <!-- Event 6 End -->
 
                 </div>
+                <!-- Events Row End -->
+
                 <br>
             </section>
+            <!-- Events End -->
+
+            <!-- Team Start -->
+            <section id="Team">
+
+            </section>
+            <!-- Team End -->
 
         </div>
+        <!-- Main Div End -->
 
         <!-- Footer Start-->
         <footer class="page-footer font-small mdb-color pt-4 bg-dark text-light">
@@ -308,6 +332,7 @@
         <!-- Footer End-->
 
     </div>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
