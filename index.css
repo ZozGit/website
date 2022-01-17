@@ -206,3 +206,28 @@ html, body {
 #Events .card {
     max-width: 250px;
 }
+
+.domain-heading {
+    font-family: 'Satisfy', cursive;
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.person-info {
+    font-family: 'Satisfy', cursive;
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 576px) {
+    .domain-heading {
+        font-size: 1.8rem;
+    }
+
+    .person-info {
+        font-size: 1.35rem;
+        margin-bottom: 1rem;
+    }
+}
+
