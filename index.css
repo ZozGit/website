@@ -44,19 +44,19 @@ html, body {
 }
 
 .h1-main {
-    font-size: 6vw;
+    font-size: 6rem;
     font-weight: bolder;
     font-family: 'Orelega One', cursive;
 }
 
 .h3-main {
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: 'Handlee', cursive;
 
 }
 
 .h4-main {
-    font-size: 1.5vw;
+    font-size: 1.7rem;
     font-family: 'Handlee', cursive;
 
 }
@@ -64,7 +64,7 @@ html, body {
 .about-head {
     font-weight: bolder;
     font-family: 'Mochiy Pop P One', sans-serif;
-    font-size: 2.5vw;
+    font-size: 2.5rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -87,7 +87,7 @@ html, body {
 }
 
 .about-text {
-    font-size: 1.5vw;
+    font-size: 1.8rem;
     font-family: 'Handlee', cursive;
 }
 
@@ -95,6 +95,10 @@ html, body {
     .about-text{
         font-size: 20px;
     }
+}
+.car-img {
+    height: 36rem;
+    margin: auto;
 }
 
 /* .card-block {
