@@ -207,6 +207,10 @@ html, body {
     width: 100%;
 }
 
+#Events {
+    padding: 0 7em;
+}
+
 #Events .card {
     max-width: 250px;
 }
