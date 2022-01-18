@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Handlee&family=Mochiy+Pop+P+One&family=Noto+Sans&family=Orelega+One&family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Handlee&family=Mochiy+Pop+P+One&family=Noto+Sans&family=Orelega+One&family=PT+Sans+Narrow&family=Roboto&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -234,4 +234,28 @@ html, body {
         margin-bottom: 1rem;
     }
 }
+
+.general-guidelines-cont{
+    padding: 0rem 22rem;
+   }
+   @media (max-width: 1286px) {
+       .general-guidelines-cont{
+           padding: 0rem 15rem;
+          }
+       }
+   @media (max-width: 1026px) {
+       .general-guidelines-cont{
+           padding: 0rem 10rem;
+          }
+       }
+    @media (max-width: 826px) {
+       .general-guidelines-cont{
+           padding: 0rem 5rem;
+          }
+       } 
+    @media (max-width: 526px) {
+       .general-guidelines-cont{
+           padding: 0rem 3rem;
+          }
+       } 
 
