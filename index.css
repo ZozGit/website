@@ -207,6 +207,34 @@ html, body {
     width: 100%;
 }
 
+/*Starting Events Section padding*/
+#Events {
+    padding: 0 7em;
+}
+
+@media (max-width: 1070px) {
+    #Events .card-body {
+        padding: 0;
+    }
+
+    #Events {
+        padding: 0 5em;
+    }
+}
+
+@media (max-width: 765px) {
+    #Events {
+        padding: 0 4em;
+    }
+}
+
+@media (max-width: 400px) {
+    #Events {
+        padding: 0 3em;
+    }
+}
+/*Ending Events Section padding*/
+
 #Events .card {
     max-width: 250px;
     padding: 0 5%;
@@ -270,26 +298,26 @@ html, body {
 }
 
 .general-guidelines-cont{
-    padding: 0rem 22rem;
+    padding: 0 22rem;
 }
+
 @media (max-width: 1286px) {
     .general-guidelines-cont{
-        padding: 0rem 15rem;
+        padding: 0 15rem;
     }
 }
 @media (max-width: 1026px) {
     .general-guidelines-cont{
-        padding: 0rem 10rem;
+        padding: 0 10rem;
     }
 }
 @media (max-width: 826px) {
     .general-guidelines-cont{
-        padding: 0rem 5rem;
+        padding: 0 5rem;
     }
 }
 @media (max-width: 526px) {
     .general-guidelines-cont{
-        padding: 0rem 3rem;
+        padding: 0 3rem;
     }
 }
-
