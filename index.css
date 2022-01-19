@@ -7,6 +7,7 @@
 
 html, body {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 /* .navbar-nav.navbar-center {
@@ -320,4 +321,14 @@ html, body {
     .general-guidelines-cont{
         padding: 0 3rem;
     }
+}
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 2063px;}
+}
+@media (min-width: 768px) and (max-width : 1200px){
+.container, .container-md, .container-sm {
+    max-width: 885px;
+}
 }
