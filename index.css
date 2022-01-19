@@ -243,7 +243,6 @@ html, body {
     transform: scale(1.05);
 }
 
-
 .domain-heading {
     /*font-family: 'Satisfy', cursive;*/
     font-family: 'Source Serif Pro', serif;
@@ -269,27 +268,28 @@ html, body {
         margin-bottom: 1rem;
     }
 }
+
 .general-guidelines-cont{
     padding: 0rem 22rem;
-   }
-   @media (max-width: 1286px) {
-       .general-guidelines-cont{
-           padding: 0rem 15rem;
-          }
-       }
-   @media (max-width: 1026px) {
-       .general-guidelines-cont{
-           padding: 0rem 10rem;
-          }
-       }
-    @media (max-width: 826px) {
-       .general-guidelines-cont{
-           padding: 0rem 5rem;
-          }
-       } 
-    @media (max-width: 526px) {
-       .general-guidelines-cont{
-           padding: 0rem 3rem;
-          }
-       } 
+}
+@media (max-width: 1286px) {
+    .general-guidelines-cont{
+        padding: 0rem 15rem;
+    }
+}
+@media (max-width: 1026px) {
+    .general-guidelines-cont{
+        padding: 0rem 10rem;
+    }
+}
+@media (max-width: 826px) {
+    .general-guidelines-cont{
+        padding: 0rem 5rem;
+    }
+}
+@media (max-width: 526px) {
+    .general-guidelines-cont{
+        padding: 0rem 3rem;
+    }
+}
 
