@@ -263,6 +263,11 @@ html, body {
     font-size: 1.6em;
 }
 
+#Events .card .card-img-top {
+    max-height: 400px;
+    max-width: 286px;
+}
+
 
 .enlarge-on-hover {
     transition: transform .25s;
@@ -324,11 +329,13 @@ html, body {
 }
 
 @media (min-width: 1200px){
-.container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 2063px;}
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 2063px;
+    }
 }
+
 @media (min-width: 768px) and (max-width : 1200px){
-.container, .container-md, .container-sm {
-    max-width: 885px;
-}
+    .container, .container-md, .container-sm {
+        max-width: 885px;
+    }
 }
