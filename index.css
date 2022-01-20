@@ -285,11 +285,21 @@ html, body {
     font-weight: bold;
 }
 
+/* Decreasing the size of the icon in the Heads */
+#Team div div div div div div p i {
+    font-size: 0.85em;
+}
+
 .person-info {
     /*font-family: 'Satisfy', cursive;*/
     font-family: 'Source Serif Pro', serif;
     font-size: 1.7rem;
     margin-bottom: 0.5rem;
+}
+
+/* Decreasing the space between the Head Name and the phone number */
+.person-info p {
+    margin-top: -0.3em;
 }
 
 @media (max-width: 576px) {
