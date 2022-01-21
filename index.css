@@ -88,7 +88,7 @@ html, body {
 }
 
 .about-text {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: 'Handlee', cursive;
 }
 
@@ -279,7 +279,8 @@ html, body {
 
 .domain-heading {
     /*font-family: 'Satisfy', cursive;*/
-    font-family: 'Source Serif Pro', serif;
+    /* font-family: 'Source Serif Pro', serif; */
+    font-family: 'Handlee', cursive;
     font-size: 2.2rem;
     text-align: center;
     font-weight: bold;
@@ -292,7 +293,8 @@ html, body {
 
 .person-info {
     /*font-family: 'Satisfy', cursive;*/
-    font-family: 'Source Serif Pro', serif;
+    /* font-family: 'Source Serif Pro', serif; */
+    /* font-family: 'Handlee', cursive; */
     font-size: 1.7rem;
     margin-bottom: 0.5rem;
 }
@@ -315,6 +317,7 @@ html, body {
 
 .general-guidelines-cont{
     padding: 0 22rem;
+    font-size: 1.3rem;
 }
 
 @media (max-width: 1286px) {
@@ -348,4 +351,8 @@ html, body {
     .container, .container-md, .container-sm {
         max-width: 885px;
     }
+}
+
+.social-icon:hover{
+    fill: rgb(240, 231, 231);
 }
