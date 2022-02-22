@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
-<!--    <link rel="stylesheet" href="bootstrap-4.6.1/dist/css/bootstrap.min.css">-->
+    <!--    <link rel="stylesheet" href="bootstrap-4.6.1/dist/css/bootstrap.min.css">-->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,18 +23,19 @@
 
 
     <title> Zozimus</title>
-    <link rel="shortcut icon" href="img/zoz-removebg-preview-3.png"/>
+    <link rel="shortcut icon" href="img/zoz-removebg-preview-3.png" />
 </head>
 
 <body data-spy="scroll">
-    <div id="spy" >
-    
+    <div id="spy">
+
         <!-- NavBar Start -->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top navigation">
 
 
             <a class="navbar-brand font-weight-bolder nav-name ">
-                <img src="img/zoz-removebg-preview-1.png" width="60px" height="40px" class="d-inline-block my-auto" alt="">
+                <img src="img/zoz-removebg-preview-1.png" width="60px" height="40px" class="d-inline-block my-auto"
+                    alt="">
                 ZOZIMUS
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
@@ -90,9 +91,18 @@
                     <div class="col-md-6 col-xl-8 px-3 my-0 text-container">
                         <div class="card-block px-6 p-5">
                             <h5 class="card-title text-center about-head mb-5 mt-4">About the fest</h5>
-                            <p class="card-text text-center about-text my-2 ">Following up on the success of our first edition, Zozimus will return this March to celebrate a gathering of literary enthusiasts and groups from all over the country. Through the literary fest, we desire to connect like-minded college students and others who wish to be a part of this exciting scene. The fest will be sprinkled with a myriad of events such as quizzing, debating, writing, and speaking competitions coupled with engaging informal literary events like scrabble tournament and online treasure hunt.
+                            <p class="card-text text-center about-text my-2 ">Following up on the success of our first
+                                edition, Zozimus will return this March to celebrate a gathering of literary enthusiasts
+                                and groups from all over the country. Through the literary fest, we desire to connect
+                                like-minded college students and others who wish to be a part of this exciting scene.
+                                The fest will be sprinkled with a myriad of events such as quizzing, debating, writing,
+                                and speaking competitions coupled with engaging informal literary events like scrabble
+                                tournament and online treasure hunt.
                             </p>
-                            <p class="card-text text-center about-text mt-5">Building up to Zozimus is the Online Litfest, inviting submissions via our website and social media for a set of quirky, byte-sized events. Kicking things off, we hope to carry forward this idea and invite you to join us on this journey.
+                            <p class="card-text text-center about-text mt-5">Building up to Zozimus is the Online
+                                Litfest, inviting submissions via our website and social media for a set of quirky,
+                                byte-sized events. Kicking things off, we hope to carry forward this idea and invite you
+                                to join us on this journey.
                             </p>
 
                         </div>
@@ -108,7 +118,8 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="d-block img-fluid img-fluid-carousel car-img" src="img/about.png" alt="">
+                                    <img class="d-block img-fluid img-fluid-carousel car-img" src="img/about.png"
+                                        alt="">
                                 </div>
                                 <div class="carousel-item">
                                     <img class="d-block img-fluid img-fluid-carousel car-img" src="img/01.png" alt="">
@@ -135,21 +146,151 @@
             <!-- Events Start -->
             <section id="Events" class="container-fluid" style="background: lightgoldenrodyellow">
                 <br>
-                <h3 id="EventsHeader" class="card-title text-center about-head mb-sm-4 mb-md-6 mt-4">Highlights from last year</h3>
+                <h3 id="EventsHeader" class="card-title text-center about-head mb-sm-4 mb-md-6 mt-4">Online LitFest</h3>
 
                 <!-- Events Row Start -->
                 <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 justify-content-center">
 
                     <!-- Event 1 Start -->
-                     <div class="col justify-content-center my-3 my-md-5">
+                    <div class="col justify-content-center my-3 my-md-5">
                         <div class="row justify-content-center">
-                            <div class="col card border-0 justify-content-center align-items-center" style="background: lightgoldenrodyellow">
-                                <a href="#" class="enlarge-on-hover">
-                                    <img class="card-img-top shadowed" src="img/events/Major.png" alt="Card image cap">
+                            <div class="col card border-0 justify-content-center align-items-center"
+                                style="background: lightgoldenrodyellow">
+
+                                <a href="#Events" class="enlarge-on-hover" data-toggle="modal"
+                                    data-target="#EventInkedVersesPopUp">
+                                    <img class="card-img-top shadowed" src="img/events/Inked_verses_poster.png" alt="Card image cap">
                                 </a>
+
+                                <!-- Event InkedVerses PopUp Start -->
+                                <div id = "EventInkedVersesPopUp" class="modal fade bd-example-modal-lg " tabindex="-1"
+                                     role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+                                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <div>
+
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true" class="bg-dark text-white "
+                                                      style="cursor: pointer;">&times;</span>
+                                            </button>
+
+                                            <!-- Modal Content Start-->
+                                            <div class="modal-content">
+
+                                                <article class="postcard dark blue">
+                                                    <a class="postcard__img_link" href="#Events">
+                                                        <img class="postcard__img" src="img/events/Inked_verses_poster.png"
+                                                             alt="Image Title"/>
+                                                    </a>
+
+                                                    <div class="postcard__text">
+                                                        <h1 class="postcard__title blue">Inked Verses</h1>
+
+                                                        <div class="postcard__bar"></div>
+
+                                                        <div class=" align-items-center justify-content-center">
+                                                            Whether it be joy, fear, sadness, or anger, poems are capable of expressing any emotion.
+
+
+                                                            <br>
+                                                            <br>
+                                                            <br>
+                                                        </div>
+
+                                                        <a href=https://dare2compete.com/creative-cultural-event/inked-verses-poetry-competition-zozimus-the-literary-fest-of-iit-hyderabad-indian-institute-of-t-266267"
+                                                           class="btn btn-success mt-2 p-1" target = "_blank">
+                                                            Register here! </a>
+
+                                                    </div>
+
+                                                </article>
+
+                                                <div class="bg-dark">
+
+                                                    <!-- Event Description Start-->
+                                                    <div class="text-white justify-content-center align-items-center d-flex p-5">
+                                                        <p>
+                                                            Pick up your notepad and let the words flow down as you take part in this Poetry competition and show your talent to the world. Winners will receive prizes worth 1.5k.
+                                                        </p>
+                                                    </div>
+                                                    <!-- Event Description End-->
+
+                                                    <!-- Event Rules Begin -->
+                                                    <h3 class="text-white text-center pt-2">Rules</h3>
+
+                                                    <div class="text-white justify-content-center align-items-center d-flex pt-2 pr-5 pl-5 pb-5">
+                                                        <ol>
+                                                            <li>
+                                                                You may write either in English or Hindi
+
+                                                            </li>
+
+                                                            <li>
+                                                                We know that words can sometimes overflow so please limit your poem upto 150 words
+
+                                                            </li>
+
+                                                            <li>
+                                                                The use of any kind of discriminatory/offensive language is strictly prohibited and will result in disqualification
+
+                                                            </li>
+
+                                                            <li>
+                                                                This is just a fun event so please don’t try to plagiarize as that entry will be disqualified
+
+                                                            </li>
+
+                                                            <li>
+                                                                The decision made by the judges is final in all cases
+
+                                                            </li>
+
+                                                            <li>
+                                                                Certificates will be awarded to all participants
+
+                                                            </li>
+                                                        </ol>
+                                                    </div>
+                                                    <!-- Event Rules End -->
+
+                                                    <!-- Event Contact Start -->
+                                                    <h3 class="text-white text-center pt-2">Contact Us</h3>
+                                                    <div class="row justify-content-center">
+                                                        <div class=" col-6 text-center pb-3">
+                                                            <p class="my-auto text-white">Kaustubh Gupta</p>
+                                                            <p class="my-auto text-white">
+                                                                <a href="mailto:es21btech11016@iith.ac.in" class="text-white">es21btech11016@iith.ac.in</a>
+                                                            </p>
+                                                            <p class="text-white">
+                                                                <i class="fas fa-phone mr-3"> </i>
+                                                                <a href="tel:8982255359" class="text-white">89822 55359</a>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class=" col-6 text-center pb-3">
+                                                            <p class="my-auto text-white">Rishitha Surisetty</p>
+                                                            <p class="my-auto text-white">
+                                                                <a href="mailto:ch21btech11030@iith.ac.in " class="text-white">ch21btech11030@iith.ac.in </a>
+                                                            </p>
+                                                            <p class="text-white">
+                                                                <i class="fas fa-phone mr-3"> </i>
+                                                                <a href="tel:8074801959" class="text-white">80748 01959</a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Event Contact End -->
+
+                                                </div>
+                                            </div>
+                                            <!-- Modal Content End -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Event InkedVerses PopUp End -->
+
                                 <div class="card-body text-center mt-3">
-                                    <h4 class="event-heading text-center">Open General Quiz</h4>
-                                    <!-- <a href="#" class="btn btn-custom">MORE INFO</a> -->
+                                    <h4 class="event-heading text-center">Inked Verses</h4>
                                 </div>
                             </div>
                         </div>
@@ -159,12 +300,161 @@
                     <!-- Event 2 Start -->
                     <div class="col justify-content-center my-3 my-md-5">
                         <div class="row justify-content-center">
-                            <div class="col card border-0 justify-content-center align-items-center" style="background: lightgoldenrodyellow">
-                                <a href="#" class="enlarge-on-hover">
-                                    <img class="card-img-top shadowed" src="img/events/MELAS.png" alt="Card image cap">
+                            <div class="col card border-0 justify-content-center align-items-center"
+                                style="background: lightgoldenrodyellow">
+
+                                <a href="#" class="enlarge-on-hover" data-toggle="modal"
+                                   data-target="#EventSweetheartPopUp">
+                                    <img class="card-img-top shadowed" src="img/events/sweetheart_poster.png" alt="Card image cap">
                                 </a>
+
+                                <!-- Event Sweetheart PopUp Start -->
+                                <div id = "EventSweetheartPopUp" class="modal fade bd-example-modal-lg " tabindex="-1"
+                                     role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+                                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <div>
+
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true" class="bg-dark text-white "
+                                                      style="cursor: pointer;">&times;</span>
+                                            </button>
+
+                                            <!-- Modal Content Start-->
+                                            <div class="modal-content">
+
+                                                <article class="postcard dark blue">
+                                                    <a class="postcard__img_link" href="#Events">
+                                                        <img class="postcard__img" src="img/events/sweetheart_poster.png"
+                                                             alt="Image Title"/>
+                                                    </a>
+
+                                                    <div class="postcard__text">
+                                                        <h1 class="postcard__title blue">Sweetheart</h1>
+
+                                                        <div class="postcard__bar"></div>
+
+                                                        <div class=" align-items-center justify-content-center">
+                                                            “Only handwritten love letters knew what love really felt like
+                                                            The blue ticks & time stamps have no clue what patience in love really means!”
+                                                            <br>
+                                                            ~21st century Romeo
+
+                                                            <br>
+                                                            <br>
+                                                            <br>
+                                                        </div>
+
+                                                        <a href="https://dare2compete.com/creative-cultural-event/sweetheart-writing-competition-zozimus-the-literary-fest-of-iit-hyderabad-indian-institute-of-te-266257"
+                                                           class="btn btn-success mt-2 p-1" target = "_blank">
+                                                            Register here! </a>
+
+                                                    </div>
+
+                                                </article>
+
+                                                <div class="bg-dark">
+
+                                                    <!-- Event Description Start-->
+                                                    <div class="text-white justify-content-center align-items-center d-flex p-5">
+                                                        <p>
+                                                            Everyone has had their share of first love(s), be it the boy-next-door, the pretty girl who always sat on the first bench, or even the cute teacher in 2nd grade ;) If you want to pour your heart out and pen down your emotions for that special one, this is the perfect event for you!
+                                                            That first secret peek of their faces, that first conversation in the hallway (which you were trying to make for ages), those cute childish giggles… too many to name! This is your best chance to let that special one know how you feel for them.
+                                                        </p>
+                                                    </div>
+                                                    <!-- Event Description End-->
+
+                                                    <!-- Event Rules Begin -->
+                                                    <h3 class="text-white text-center pt-2">Rules</h3>
+                                                    <p class="text-white text-center">
+                                                        <b> None hinders thy love </b>
+                                                        except for a few rules described below to moderate the happenings!
+                                                    </p>
+
+                                                    <div class="text-white justify-content-center align-items-center d-flex pt-2 pr-5 pl-5 pb-5">
+                                                        <ol>
+                                                            <li>
+                                                                Since this is an online event, only ‘typed’ submissions will be accepted via the Dare2Compete Platform.
+                                                            </li>
+
+                                                            <li>
+                                                                Love knows no language, but we do! We’ll accept all entries in English, Hindi (or even Hinglish) because we all know at the end of the day, it’s the emotions that matter, not the multisyllabic words!
+
+                                                            </li>
+
+                                                            <li>
+                                                                Plagiarism? A STRICT NO! If you fail to abide by this, there will be immediate expulsion from the event.
+
+                                                            </li>
+
+                                                            <li>
+                                                                After all, you have so much to express about your ever-lasting love! But we would appreciate it if you scale down to <b>350-450</b> words (50 words here and there would be alright coz ur in love ¯\_(ツ)_/¯ )
+
+                                                            </li>
+
+                                                            <li>
+                                                                Please soften your language and curb your free speech on the real names being used.
+
+                                                            </li>
+
+                                                            <li>
+                                                                Refrain from making insensitive remarks or using abuse and foul language of any form. It will lead straight to <u>disqualification</u>.
+
+                                                            </li>
+                                                        </ol>
+                                                    </div>
+                                                    <!-- Event Rules End -->
+
+                                                    <!-- Event Evaluation Start -->
+                                                    <h3 class="text-white text-center pt-2">Evaluation</h3>
+                                                    <div class="text-white justify-content-center align-items-center d-flex pt-2 pr-5 pl-5 pb-5">
+                                                        Although everyone's a winner in love, there can be only a single winner in this competition. Our winner will be decided by judging your entries according to the passion and beauty you can portray your feelings and emotions.
+                                                        Though there will be a single winner who will win our hearts, the best parts of your tales will have an HONOURABLE mention on social media.
+
+                                                        <br> <br>
+                                                        Feel free to contact any of us in case of a query. We’ll be more than happy to reach out!! Adios!
+
+                                                    </div>
+                                                    <!-- Event Evaluation End -->
+
+                                                    <!-- Event Contact Start -->
+                                                    <h3 class="text-white text-center pt-2">Contact Us</h3>
+                                                    <div class="row justify-content-center">
+                                                        <div class=" col-6 text-center pb-3">
+                                                            <p class="my-auto text-white">Harish Madireddi</p>
+                                                            <p class="my-auto text-white">
+                                                                <a href="mailto:ee21btech11047@iith.ac.in" class="text-white">ee21btech11047@iith.ac.in</a>
+                                                            </p>
+                                                            <p class="text-white">
+                                                                <i class="fas fa-phone mr-3"> </i>
+                                                                <a href="tel:8985947355" class="text-white">89859 47355</a>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class=" col-6 text-center pb-3">
+                                                            <p class="my-auto text-white">Gaurang Dahad</p>
+                                                            <p class="my-auto text-white">
+                                                                <a href="mailto:ee21btech11014@iith.ac.in " class="text-white">ee21btech11014@iith.ac.in </a>
+                                                            </p>
+                                                            <p class="text-white">
+<!--                                                                <i class="fas fa-phone mr-3"> </i>-->
+<!--                                                                <a href="tel:6282790289" class="text-white">89859 47355</a>-->
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Event Contact End -->
+
+                                                </div>
+                                            </div>
+                                            <!-- Modal Content End -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Event Sweetheart PopUp End -->
+
                                 <div class="card-body text-center mt-3">
-                                    <h4 class="event-heading  text-center">The Melas Quiz</h4>
+                                    <h4 class="event-heading  text-center">Sweetheart</h4>
                                 </div>
                             </div>
                         </div>
@@ -174,12 +464,148 @@
                     <!-- Event 3 Start -->
                     <div class="col justify-content-center my-3 my-md-5">
                         <div class="row justify-content-center">
-                            <div class="col card border-0 justify-content-center align-items-center" style="background: lightgoldenrodyellow">
-                                <a href="#" class="enlarge-on-hover">
-                                    <img class="card-img-top shadowed" src="img/events/DebateDylan.png" alt="Card image cap">
+                            <div class="col card border-0 justify-content-center align-items-center"
+                                style="background: lightgoldenrodyellow">
+
+                                <a href="#" class="enlarge-on-hover" data-toggle="modal"
+                                   data-target="#EventEssayWriting">
+                                    <img class="card-img-top shadowed" src="img/events/zoz_online_litfest.jpg" alt="Card image cap">
                                 </a>
+
+                                <!-- Event EssayWriting PopUp Start -->
+                                <div id = "EventEssayWriting" class="modal fade bd-example-modal-lg " tabindex="-1"
+                                     role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+                                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <div>
+
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true" class="bg-dark text-white "
+                                                      style="cursor: pointer;">&times;</span>
+                                            </button>
+
+                                            <!-- Modal Content Start-->
+                                            <div class="modal-content">
+
+                                                <article class="postcard dark blue">
+                                                    <a class="postcard__img_link" href="#Events">
+                                                        <img class="postcard__img" src="img/events/zoz_online_litfest.jpg"
+                                                             alt="Image Title"/>
+                                                    </a>
+
+                                                    <div class="postcard__text">
+                                                        <h1 class="postcard__title blue">Essay Writing</h1>
+
+                                                        <div class="postcard__bar"></div>
+
+                                                        <div class=" align-items-center justify-content-center">
+                                                            E - Entertaining <br>
+                                                            S - Surprising <br>
+                                                            S - Soothing <br>
+                                                            A - Authentic <br>
+                                                            Y - Y? <br>
+
+                                                            <br>
+                                                            <br>
+                                                            <br>
+                                                        </div>
+
+                                                        <a href="https://dare2compete.com/creative-cultural-event/essay-writing-competition-zozimus-the-literary-fest-of-iit-hyderabad-266709"
+                                                           class="btn btn-success mt-2 p-1" target = "_blank">
+                                                            Register here! </a>
+
+                                                    </div>
+
+                                                </article>
+
+                                                <div class="bg-dark">
+
+                                                    <!-- Event Description Start-->
+                                                    <div class="text-white justify-content-center align-items-center d-flex p-5">
+                                                        <p>
+
+                                                            How many bases do you think you can cover? Delve into the unexplored depths of the ocean of your creativity and discover the Shakespeare in you.  Winners have exciting prizes in store for them. Can you go around the world in 800 words?
+
+                                                        </p>
+                                                    </div>
+                                                    <!-- Event Description End-->
+
+                                                    <!-- Event Rules Begin -->
+                                                    <h3 class="text-white text-center pt-2">Rules</h3>
+
+                                                    <div class="text-white justify-content-center align-items-center d-flex pt-2 pr-5 pl-5 pb-5">
+                                                        <ol>
+                                                            <li>
+                                                                To make it easier for you to write and for us to judge, all essays should be centered around one word, which should also be the title of your essay.  (Example: Raindrops)
+
+                                                            </li>
+
+                                                            <li>
+                                                                The maximum word count of the essay is 800 words.
+
+                                                            </li>
+
+                                                            <li>
+                                                                All essays should be in English and any profanity or offensive language will lead to disqualification.
+
+                                                            </li>
+
+                                                            <li>
+                                                                Plagiarism will lead to immediate disqualification for obvious reasons.
+
+                                                            </li>
+
+                                                            <li>
+                                                                Participants will receive a Certificate.
+
+                                                            </li>
+
+                                                            <li>
+                                                                Winners will be awarded prizes worth INR 1.5k
+
+                                                            </li>
+                                                        </ol>
+                                                    </div>
+                                                    <!-- Event Rules End -->
+
+                                                    <!-- Event Contact Start -->
+                                                    <h3 class="text-white text-center pt-2">Contact Us</h3>
+                                                    <div class="row justify-content-center">
+                                                        <div class=" col-6 text-center pb-3">
+                                                            <p class="my-auto text-white">Hitesh Donepudi</p>
+                                                            <p class="my-auto text-white">
+                                                                <a href="mailto:ee21btech11017@iith.ac.in" class="text-white">ee21btech11017@iith.ac.in</a>
+                                                            </p>
+                                                            <p class="text-white">
+                                                                <i class="fas fa-phone mr-3"> </i>
+                                                                <a href="tel:9701144855" class="text-white">97011 44855</a>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class=" col-6 text-center pb-3">
+                                                            <p class="my-auto text-white">Anirudh Dash</p>
+                                                            <p class="my-auto text-white">
+                                                                <a href="mailto:ee21btech11002@iith.ac.in " class="text-white">ee21btech11002@iith.ac.in </a>
+                                                            </p>
+                                                            <p class="text-white">
+                                                                <i class="fas fa-phone mr-3"> </i>
+                                                                <a href="tel:9011022733" class="text-white">90110 22733</a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Event Contact End -->
+
+                                                </div>
+                                            </div>
+                                            <!-- Modal Content End -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Event EssayWriting PopUp End -->
+
                                 <div class="card-body text-center mt-3">
-                                    <h4 class="event-heading  text-center">Debate</h4>
+                                    <h4 class="event-heading  text-center">Essay Writing</h4>
                                 </div>
                             </div>
                         </div>
@@ -189,12 +615,144 @@
                     <!-- Event 4 Start -->
                     <div class="col justify-content-center my-3 my-md-5">
                         <div class="row justify-content-center">
-                            <div class="col card border-0 justify-content-center align-items-center" style="background: lightgoldenrodyellow">
-                                <a href="#" class="enlarge-on-hover">
-                                    <img class="card-img-top shadowed" src="img/events/openmic.png" alt="Card image cap">
+                            <div class="col card border-0 justify-content-center align-items-center"
+                                style="background: lightgoldenrodyellow">
+
+                                <a href="#" class="enlarge-on-hover" data-toggle="modal"
+                                   data-target="#EventDearMePopUp">
+                                    <img class="card-img-top shadowed" src="img/events/zoz_online_litfest.jpg" alt="Card image cap">
                                 </a>
+
+                                <!-- Event DearMe PopUp Start -->
+                                <div id = "EventDearMePopUp" class="modal fade bd-example-modal-lg " tabindex="-1"
+                                     role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+                                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <div>
+
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true" class="bg-dark text-white "
+                                                      style="cursor: pointer;">&times;</span>
+                                            </button>
+
+                                            <!-- Modal Content Start-->
+                                            <div class="modal-content">
+
+                                                <article class="postcard dark blue">
+                                                    <a class="postcard__img_link" href="#Events">
+                                                        <img class="postcard__img" src="img/events/zoz_online_litfest.jpg"
+                                                             alt="Image Title"/>
+                                                    </a>
+
+                                                    <div class="postcard__text">
+                                                        <h1 class="postcard__title blue">Dear Me</h1>
+
+                                                        <div class="postcard__bar"></div>
+
+                                                        <div class=" align-items-center justify-content-center">
+                                                            "What if you were given a chance to talk with your younger self?!"
+                                                            Dear Me is all about that.
+                                                            <br>
+                                                            <br>
+                                                            <br>
+                                                            <br>
+                                                        </div>
+
+                                                        <a href="https://dare2compete.com/creative-cultural-event/dear-me-writing-competition-zozimus-the-literary-fest-of-iit-hyderabad-indian-institute-of-techn-266712"
+                                                           class="btn btn-success mt-2 p-1" target = "_blank">
+                                                            Register here! </a>
+
+                                                    </div>
+
+                                                </article>
+
+                                                <div class="bg-dark">
+
+                                                    <!-- Event Description Start-->
+                                                    <div class="text-white justify-content-center align-items-center d-flex p-5">
+                                                        <p>
+                                                            The event prompts you to write a letter to your younger self,
+                                                            any advice you would give, any guidance you would bestow. Speak to yourself about those challenges and those victories because after all, it is your beautiful journey in the making. It is always the things which do not turn out as we expect and the moments in which we say, "I did it!"
+                                                        </p>
+                                                    </div>
+                                                    <!-- Event Description End-->
+
+                                                    <!-- Event Rules Begin -->
+                                                    <h3 class="text-white text-center pt-2">Rules</h3>
+
+                                                    <div class="text-white justify-content-center align-items-center d-flex pt-2 pr-5 pl-5 pb-5">
+                                                        <ol>
+                                                            <li>
+                                                                You can write in English or Hindi.
+
+                                                            </li>
+
+                                                            <li>
+                                                                You have to write a letter starting with ‘Dear Me’. We understand that you may have a lot to say looking back at yourself, but restricting the number of words to 500 is encouraged.
+
+                                                            </li>
+
+                                                            <li>
+                                                                Usage of offensive/discriminatory language is strictly prohibited and will result in immediate disqualification.
+
+                                                            </li>
+
+                                                            <li>
+                                                                Please bring the real you. Plagiarism or unoriginality of the content will result in immediate disqualification
+
+                                                            </li>
+
+                                                            <li>
+                                                                Prizes worth 1.5k will be awarded to winners.
+
+                                                            </li>
+
+                                                            <li>
+                                                                Participants will receive a Certificate.
+
+                                                            </li>
+                                                        </ol>
+                                                    </div>
+                                                    <!-- Event Rules End -->
+
+                                                    <!-- Event Contact Start -->
+                                                    <h3 class="text-white text-center pt-2">Contact Us</h3>
+                                                    <div class="row justify-content-center">
+                                                        <div class=" col-6 text-center pb-3">
+                                                            <p class="my-auto text-white">Aman Jagtap</p>
+                                                            <p class="my-auto text-white">
+                                                                <a href="mailto:ms21btech11005@iith.ac.in" class="text-white">ms21btech11005@iith.ac.in</a>
+                                                            </p>
+                                                            <p class="text-white">
+                                                                <i class="fas fa-phone mr-3"> </i>
+                                                                <a href="tel:7235915379" class="text-white">72359 15379</a>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class=" col-6 text-center pb-3">
+                                                            <p class="my-auto text-white">Manikanta Uppulapu</p>
+                                                            <p class="my-auto text-white">
+                                                                <a href="mailto:bt21btech11005@iith.ac.in " class="text-white">bt21btech11005@iith.ac.in </a>
+                                                            </p>
+                                                            <p class="text-white">
+                                                                <i class="fas fa-phone mr-3"> </i>
+                                                                <a href="tel:7730006389" class="text-white">77300 06389</a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Event Contact End -->
+
+                                                </div>
+                                            </div>
+                                            <!-- Modal Content End -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Event DearMe PopUp End -->
+
                                 <div class="card-body text-center mt-3">
-                                    <h4 class="event-heading  text-center">The Open Mic</h4>
+                                    <h4 class="event-heading  text-center">Dear Me</h4>
                                 </div>
                             </div>
                         </div>
@@ -204,12 +762,160 @@
                     <!-- Event 5 Start -->
                     <div class="col justify-content-center my-3 my-md-5">
                         <div class="row justify-content-center">
-                            <div class="col card border-0 justify-content-center align-items-center" style="background: lightgoldenrodyellow">
-                                <a href="#" class="enlarge-on-hover">
-                                    <img class="card-img-top shadowed" src="img/events/treasurehunt.png" alt="Card image cap">
+                            <div class="col card border-0 justify-content-center align-items-center"
+                                style="background: lightgoldenrodyellow">
+
+                                <a href="#" class="enlarge-on-hover" data-toggle="modal"
+                                   data-target="#EventT2SPopUp">
+                                    <img class="card-img-top shadowed" src="img/events/zoz_online_litfest.jpg" alt="Card image cap">
                                 </a>
+
+                                <!-- Event T2S PopUp Start -->
+                                <div id = "EventT2SPopUp" class="modal fade bd-example-modal-lg " tabindex="-1"
+                                     role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+                                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <div>
+
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true" class="bg-dark text-white "
+                                                      style="cursor: pointer;">&times;</span>
+                                            </button>
+
+                                            <!-- Modal Content Start-->
+                                            <div class="modal-content">
+
+                                                <article class="postcard dark blue">
+                                                    <a class="postcard__img_link" href="#Events">
+                                                        <img class="postcard__img" src="img/events/zoz_online_litfest.jpg"
+                                                             alt="Image Title"/>
+                                                    </a>
+
+                                                    <div class="postcard__text">
+                                                        <h1 class="postcard__title blue">A Tale of 2 Stories (CrossOver)</h1>
+
+                                                        <div class="postcard__bar"></div>
+
+                                                        <div class=" align-items-center justify-content-center">
+                                                            “We are only as strong as we are united, as weak as we are divided.”
+                                                            <br>
+                                                            – Albus Dumbledore
+
+                                                            <br>
+                                                            <br>
+                                                            <br>
+                                                            <br>
+                                                        </div>
+
+                                                        <a href="https://dare2compete.com/creative-cultural-event/a-tale-of-two-stories-crossover-writing-competition-zozimus-the-literary-fest-of-iit-hyderabad-266717"
+                                                           class="btn btn-success mt-2 p-1" target = "_blank">
+                                                            Register here! </a>
+
+                                                    </div>
+
+                                                </article>
+
+                                                <div class="bg-dark">
+
+                                                    <!-- Event Description Start-->
+                                                    <div class="text-white justify-content-center align-items-center d-flex p-5">
+                                                        <p>
+                                                            Ever wanted Green goblin and Ares teaming up to fight Percy Jackson? Or Voldemort fighting Batman? Gandalf and Dumbledore dissing each other? Well, here’s your chance! Bring out your creative inner thoughts, and show the world (or worlds?) how you merge your favorite fandoms into one great story. Unite your characters, now!
+                                                        </p>
+                                                    </div>
+                                                    <!-- Event Description End-->
+
+                                                    <!-- Event Rules Begin -->
+                                                    <h3 class="text-white text-center pt-2">Rules</h3>
+
+                                                    <div class="text-white justify-content-center align-items-center d-flex pt-2 pr-5 pl-5 pb-5">
+                                                        <ol>
+                                                            <li>
+                                                                While we all love a good fanfic, we are looking for a short story, not a book. Keep your submissions to 1000 words.
+
+                                                            </li>
+
+                                                            <li>
+                                                                We’ll accept entries in English and Hindi. This is your story, after all, express it the way you want to.
+
+                                                            </li>
+
+                                                            <li>
+                                                                While we all love our niches, please stick to
+                                                                <a href="https://docs.google.com/spreadsheets/d/1er-LqK_xveaZy3QfYsvLGRYFWd76-jD_3NJxYJxCe9I/edit#gid=0">
+                                                                    this list
+                                                                </a> of fandoms.
+
+                                                            </li>
+
+                                                            <li>
+                                                                Like our favorite books, we all like a new and original story. Plagiarism will result in you being banished from the Glade.
+
+                                                            </li>
+
+                                                            <li>
+                                                                Grab a friend! Merge your favorite fandoms into one <b>AWESOME</b> story. Up to two people can collaborate on a story together! .
+
+                                                            </li>
+
+                                                            <li>
+                                                                Everything in moderation: stick to two fandoms—no more than two fandoms per submission.
+
+                                                            </li>
+                                                            <li>
+                                                                The judges' decision is final and binding.
+
+                                                            </li>
+                                                            <li>
+                                                                Prizes worth 1.5k will be awarded to winners.
+
+                                                            </li>
+                                                            <li>
+                                                                Participants will receive a Certificate.
+
+                                                            </li>
+                                                        </ol>
+                                                    </div>
+                                                    <!-- Event Rules End -->
+
+                                                    <!-- Event Contact Start -->
+                                                    <h3 class="text-white text-center pt-2">Contact Us</h3>
+                                                    <div class="row justify-content-center">
+                                                        <div class=" col-6 text-center pb-3">
+                                                            <p class="my-auto text-white">Nakul Garg</p>
+                                                            <p class="my-auto text-white">
+                                                                <a href="mailto:me21btech11035@iith.ac.in" class="text-white">me21btech11035@iith.ac.in</a>
+                                                            </p>
+                                                            <p class="text-white">
+                                                                <i class="fas fa-phone mr-3"> </i>
+                                                                <a href="tel:+971-557686827" class="text-white">+971-557686827</a>
+                                                            </p>
+                                                        </div>
+
+                                                        <div class=" col-6 text-center pb-3">
+                                                            <p class="my-auto text-white">Areeb Hussain </p>
+                                                            <p class="my-auto text-white">
+                                                                <a href="mailto:me21btech11033@iith.ac.in  " class="text-white"> me21btech11033@iith.ac.in</a>
+                                                            </p>
+                                                            <p class="text-white">
+                                                                <i class="fas fa-phone mr-3"> </i>
+                                                                <a href="tel:8897071406" class="text-white">88970 71406</a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Event Contact End -->
+
+                                                </div>
+                                            </div>
+                                            <!-- Modal Content End -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Event T2S PopUp End -->
+
                                 <div class="card-body text-center mt-3">
-                                    <h4 class="event-heading  text-center">The Treasure Hunt</h4>
+                                    <h4 class="event-heading  text-center">A Tale of Two Stories (CrossOver)</h4>
                                 </div>
                             </div>
                         </div>
@@ -219,12 +925,154 @@
                     <!-- Event 6 Start -->
                     <div class="col justify-content-center my-3 my-md-5">
                         <div class="row justify-content-center">
-                            <div class="col card border-0 justify-content-center align-items-center" style="background: lightgoldenrodyellow">
-                                <a href="#" class="enlarge-on-hover">
-                                    <img class="card-img-top shadowed" src="img/events/WRITING.png" alt="Card image cap">
+                            <div class="col card border-0 justify-content-center align-items-center"
+                                style="background: lightgoldenrodyellow">
+
+                                <a href="#" class="enlarge-on-hover" data-toggle="modal"
+                                   data-target="#Event2LTPopUp">
+                                    <img class="card-img-top shadowed" src="img/events/zoz_online_litfest.jpg" alt="Card image cap">
                                 </a>
+
+                                <!-- Event T2S PopUp Start -->
+                                <div id = "Event2LTPopUp" class="modal fade bd-example-modal-lg " tabindex="-1"
+                                     role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+                                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                                        <div>
+
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true" class="bg-dark text-white "
+                                                      style="cursor: pointer;">&times;</span>
+                                            </button>
+
+                                            <!-- Modal Content Start-->
+                                            <div class="modal-content">
+
+                                                <article class="postcard dark blue">
+                                                    <a class="postcard__img_link" href="#Events">
+                                                        <img class="postcard__img" src="img/events/zoz_online_litfest.jpg"
+                                                             alt="Image Title"/>
+                                                    </a>
+
+                                                    <div class="postcard__text">
+                                                        <h1 class="postcard__title blue">2 Line Terror</h1>
+
+                                                        <div class="postcard__bar"></div>
+
+                                                        <div class=" align-items-center justify-content-center">
+                                                            “Where there is no imagination, there is no horror.”
+                                                            <br>
+                                                            -Sir Arthur Conan Doyle
+
+
+                                                            <br>
+                                                            <br>
+                                                            <br>
+                                                            <br>
+                                                        </div>
+
+                                                        <a href="https://dare2compete.com/creative-cultural-event/2-line-terror-writing-competition-zozimus-the-literary-fest-of-iit-hyderabad-266721"
+                                                           class="btn btn-success mt-2 p-1" target = "_blank">
+                                                            Register here! </a>
+
+                                                    </div>
+
+                                                </article>
+
+                                                <div class="bg-dark">
+
+                                                    <!-- Event Description Start-->
+                                                    <div class="text-white justify-content-center align-items-center d-flex p-5">
+                                                        <p>
+                                                            The name says it all. Unleash the horror within and come up with a two-liner that sends chills down the spine of the reader! Remember to keep it as compressed and blood-curdling as possible. There's no limit to how scary you can go, so give us all you've got!
+                                                        </p>
+                                                    </div>
+                                                    <!-- Event Description End-->
+
+                                                    <!-- Event Rules Begin -->
+                                                    <h3 class="text-white text-center pt-2">Rules</h3>
+
+                                                    <div class="text-white justify-content-center align-items-center d-flex pt-2 pr-5 pl-5 pb-5">
+                                                        <ol>
+                                                            <li>
+                                                                Your story will be judged based on your creativity, fluency, and impact. The decision taken by the judges is final.
+
+                                                            </li>
+
+                                                            <li>
+                                                                Your entry must be two sentences or under (longer ones will be rejected outright). Keep it short and spooky.
+
+                                                            </li>
+
+                                                            <li>
+                                                                Do not plagiarize. Create any horror story but retain your originality. It’s what matters after all!
+
+                                                            </li>
+
+                                                            <li>
+                                                                Do not refer to any other famous work in your story. Let the story be independent.
+
+                                                            </li>
+
+                                                            <li>
+                                                                Don’t write something offensive. The last thing a person would want from your story is to be offended by it.
+
+                                                            </li>
+
+                                                            <li>
+                                                                Entries using profanity and slang will be disqualified.
+
+                                                            </li>
+                                                            <li>
+                                                                Prizes worth 1.5k will be awarded to winners.
+
+                                                            </li>
+                                                            <li>
+                                                                Participants will receive a Certificate.
+
+                                                            </li>
+                                                        </ol>
+                                                    </div>
+                                                    <!-- Event Rules End -->
+
+                                                    <!-- Event Contact Start -->
+                                                    <h3 class="text-white text-center pt-2">Contact Us</h3>
+                                                    <div class="row justify-content-center">
+                                                        <div class=" col-6 text-center pb-3">
+                                                            <p class="my-auto text-white">Diva Jaiwar </p>
+                                                            <p class="my-auto text-white">
+                                                                <a href="mailto:me21btech11014@iith.ac.in" class="text-white">me21btech11014@iith.ac.in</a>
+                                                            </p>
+                                                            <p class="text-white">
+<!--                                                                <i class="fas fa-phone mr-3"> </i>-->
+<!--                                                                <a href="tel:+971-557686827" class="text-white">+971-557686827</a>-->
+                                                            </p>
+                                                        </div>
+
+                                                        <div class=" col-6 text-center pb-3">
+                                                            <p class="my-auto text-white">K S Makarand</p>
+                                                            <p class="my-auto text-white">
+                                                                <a href="mailto:me21btech11023@iith.ac.in" class="text-white"> me21btech11023@iith.ac.in</a>
+                                                            </p>
+                                                            <p class="text-white">
+                                                                <i class="fas fa-phone mr-3"> </i>
+                                                                <a href="tel:8639451539" class="text-white">86394 51539</a>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Event Contact End -->
+
+                                                </div>
+                                            </div>
+                                            <!-- Modal Content End -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Event 2LT PopUp End -->
+
                                 <div class="card-body text-center mt-3">
-                                    <h4 class="event-heading  text-center">The Writing Events</h4>
+                                    <h4 class="event-heading  text-center">2 Line Terror</h4>
                                 </div>
                             </div>
                         </div>
@@ -236,12 +1084,13 @@
 
                 <br>
             </section>
-             <!-- Events End -->
+            <!-- Events End -->
 
             <!-- Team Start -->
             <section id="Team" class="container-fluid" style="background: lightcyan">
 
-                <br> <h3 class="card-title text-center about-head mb-5 mt-4">Team</h3> <br>
+                <br>
+                <h3 class="card-title text-center about-head mb-5 mt-4">Team</h3> <br>
 
                 <!-- Overall Coordinators Start -->
                 <div class="card border-0" style="min-width: 100px; background: lightcyan">
@@ -251,19 +1100,21 @@
 
                     <div class="row justify-content-center">
                         <div class="person-info col-12 col-md-5 text-center">
-                            <p class="my-auto" >Mansi Nanavati</p>
-                            <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:8688299704" class="text-dark">8688299704</a> </p>
+                            <p class="my-auto">Mansi Nanavati</p>
+                            <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:8688299704"
+                                    class="text-dark">8688299704</a> </p>
                         </div>
                         <div class="col-md-1"></div>
                         <div class="person-info col-12 col-md-5 text-center">
-                            <p class="my-auto" >Shreyas Havaldar</p>
-                            <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:8446616704" class="text-dark">8446616704</a></p>
+                            <p class="my-auto">Shreyas Havaldar</p>
+                            <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:8446616704"
+                                    class="text-dark">8446616704</a></p>
                         </div>
                     </div>
                 </div>
                 <!-- Overall Coordinators End -->
 
-                <br> <br> 
+                <br> <br>
 
                 <!-- Heads Start -->
                 <div>
@@ -274,7 +1125,7 @@
                     <br>
 
                     <!-- Market and Web Heads Start -->
-                    <div class="card border-0" style="min-width: 100px; background: lightcyan" >
+                    <div class="card border-0" style="min-width: 100px; background: lightcyan">
 
                         <!-- Row Start -->
                         <div class="row">
@@ -286,18 +1137,20 @@
                                 <div class="row justify-content-center">
                                     <div class="person-info col-12 col-sm-6 col-md-5 text-center">
                                         <p class="my-auto">Prakhar Pragya</p>
-                                        <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:7549136119" class="text-dark">7549136119 </a></p>
+                                        <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:7549136119"
+                                                class="text-dark">7549136119 </a></p>
                                     </div>
                                     <div class="person-info col-12 col-sm-6 col-md-5 text-center">
                                         <p class="my-auto">Nandita LT</p>
-                                        <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:9030035700" class="text-dark">9030035700</a> </p>
+                                        <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:9030035700"
+                                                class="text-dark">9030035700</a> </p>
                                     </div>
                                 </div>
                             </div>
                             <!-- Market Heads End -->
 
-<!--                            <div class="col-lg-2 my-3">-->
-<!--                            </div>-->
+                            <!--                            <div class="col-lg-2 my-3">-->
+                            <!--                            </div>-->
 
                             <!-- Web Heads Start -->
                             <div class="col-lg-4 my-3 my-sm-4 my-lg-5">
@@ -306,7 +1159,8 @@
                                 <div class="row justify-content-center">
                                     <div class="person-info col-12 text-center">
                                         <p class="my-auto">Agraj Srivastava</p>
-                                        <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:9890148135" class="text-dark">9890148135</a> </p>
+                                        <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:9890148135"
+                                                class="text-dark">9890148135</a> </p>
                                     </div>
                                 </div>
                             </div>
@@ -319,7 +1173,7 @@
                     <!-- Market and Web Heads End -->
 
                     <!-- Logistics+Hospitality and PR Heads Start -->
-                    <div class="card border-0" style="min-width: 100px; background: lightcyan" >
+                    <div class="card border-0" style="min-width: 100px; background: lightcyan">
 
                         <!-- Row Start -->
                         <div class="row">
@@ -331,18 +1185,20 @@
                                 <div class="row justify-content-center">
                                     <div class="person-info col-12 col-sm-6 col-md-5 text-center">
                                         <p class="my-auto">Sharan Patil</p>
-                                        <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:9483084510" class="text-dark">9483084510</a> </p>
+                                        <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:9483084510"
+                                                class="text-dark">9483084510</a> </p>
                                     </div>
                                     <div class="person-info col-12 col-sm-6 col-md-5 text-center">
                                         <p class="my-auto">Tarun Ram</p>
-                                        <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:9966434436" class="text-dark">9966434436</a> </p>
+                                        <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:9966434436"
+                                                class="text-dark">9966434436</a> </p>
                                     </div>
                                 </div>
                             </div>
                             <!-- PR Heads End -->
 
-<!--                            <div class="col-lg-2 my-3 order-lg-2">-->
-<!--                            </div>-->
+                            <!--                            <div class="col-lg-2 my-3 order-lg-2">-->
+                            <!--                            </div>-->
 
                             <!-- Logistics+Hospitality Head Start -->
                             <div class="col-lg-4 my-3 my-sm-4 my-lg-5 order-lg-3">
@@ -351,7 +1207,8 @@
                                 <div class="row justify-content-center">
                                     <div class="person-info col-12 text-center">
                                         <p class="my-auto">Sanket Ranade</p>
-                                        <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:9324473158" class="text-dark">9324473158</a> </p>
+                                        <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:9324473158"
+                                                class="text-dark">9324473158</a> </p>
                                     </div>
                                 </div>
                             </div>
@@ -364,7 +1221,7 @@
                     <!-- Logistics+Hospitality and PR Heads End -->
 
                     <!-- Creatives and Informals Heads Start -->
-                    <div class="card border-0" style="min-width: 100px; background: lightcyan" >
+                    <div class="card border-0" style="min-width: 100px; background: lightcyan">
 
                         <!-- Row Start -->
                         <div class="row">
@@ -376,18 +1233,20 @@
                                 <div class="row justify-content-center">
                                     <div class="person-info col-12 col-sm-6 col-md-5 text-center">
                                         <p class="my-auto">Arsalan Sheikh</p>
-                                        <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:6005328558" class="text-dark">6005328558</a> </p>
+                                        <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:6005328558"
+                                                class="text-dark">6005328558</a> </p>
                                     </div>
                                     <div class="person-info col-12 col-sm-6 col-md-5 text-center">
                                         <p class="my-auto">Akshith Akkenapalli</p>
-                                        <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:8978514109" class="text-dark">8978514109</a> </p>
+                                        <p class=""><i class="fas fa-phone mr-3"></i><a href="tel:8978514109"
+                                                class="text-dark">8978514109</a> </p>
                                     </div>
                                 </div>
                             </div>
                             <!-- Creatives Heads End -->
 
-<!--                            <div class="col-lg-2 my-3">-->
-<!--                            </div>-->
+                            <!--                            <div class="col-lg-2 my-3">-->
+                            <!--                            </div>-->
 
                             <!-- Informals Start -->
                             <div class="col-lg-4 my-3 my-sm-4 my-lg-5">
@@ -396,7 +1255,8 @@
                                 <div class="row justify-content-center">
                                     <div class="person-info col-12 text-center">
                                         <p class="my-auto">Soumi Chakraborty</p>
-                                        <p class=""><i class="fas fa-phone mr-3"></i><a href="tel: 9916904237" class="text-dark"> 9916904237</a></p>
+                                        <p class=""><i class="fas fa-phone mr-3"></i><a href="tel: 9916904237"
+                                                class="text-dark"> 9916904237</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -420,18 +1280,20 @@
                     <h5 class="card-title text-center about-head mb-5 mt-4 ">General Guidelines</h5>
                     <div class="general-guidelines-cont  ">
                         <p class="card-text   my-2 " style="font-family: 'Roboto', sans-serif; ">
-                            1. Kindly go through the event rules and description given on the website before participating.
+                            1. Kindly go through the event rules and description given on the website before
+                            participating.
                         </p>
-                        <p class="card-text   my-2 "style="font-family: 'Roboto', sans-serif; ">
+                        <p class="card-text   my-2 " style="font-family: 'Roboto', sans-serif; ">
                             2. In case of any dispute the organisers decision will be final.
                         </p>
-                        <p class="card-text  my-2 "style="font-family: 'Roboto', sans-serif; ">
+                        <p class="card-text  my-2 " style="font-family: 'Roboto', sans-serif; ">
                             3. In case of low participation, we withhold the right to cancel any event during the fest..
                         </p>
-                        <p class="card-text   my-2 "style="font-family: 'Roboto', sans-serif; ">
-                            4. The institution or the team is not responsible for any loss whatsoever of any of the participants. Take care of yourself and your belongings.
+                        <p class="card-text   my-2 " style="font-family: 'Roboto', sans-serif; ">
+                            4. The institution or the team is not responsible for any loss whatsoever of any of the
+                            participants. Take care of yourself and your belongings.
                         </p>
-                        <p class="card-text   my-2 "style="font-family: 'Roboto', sans-serif; ">
+                        <p class="card-text   my-2 " style="font-family: 'Roboto', sans-serif; ">
                             5. Lastly, in the words of an ex-Quiz Club coord, bring your own pens (for all the events)
                         </p>
                     </div>
@@ -453,9 +1315,10 @@
                 <div class="row text-center mt-3 pb-3">
 
                     <!-- Grid column -->
-                    
+
                     <div class="col-md-3 col-lg-3 col-xl-2 mx-auto  text-center">
-                        <img src="img/zoz-removebg-preview-1.png" width="300px" height="300px" class="d-inline-block  img-fluid" alt="">
+                        <img src="img/zoz-removebg-preview-1.png" width="300px" height="300px"
+                            class="d-inline-block  img-fluid" alt="">
                         <a class="navbar-brand font-weight-bolder  text-light" href="#Home">ZOZIMUS-2022</a>
                     </div>
                     <!-- Grid column -->
@@ -484,7 +1347,7 @@
                         <p class="">
                             <i class="fas fa-phone mr-3"></i>
                             <a href="tel:8688299704" class="text-white">+91 8688299704</a>
-                            
+
                         </p>
                         <p class="pt-4">
                             Shreyas Havaldar
@@ -492,14 +1355,16 @@
                         <p class="">
                             <i class="fas fa-phone mr-3"></i>
                             <a href="tel: 8446616704" class="text-white">
-                            +91 8446616704 </a> 
+                                +91 8446616704 </a>
                         </p>
 
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3 mx-auto mt-3">
-                       <p> © 2022 Indian Institute of Technology Hyderabad, Kandi, Sangareddy, Telangana, India. All rights reserved.</p>
+                        <p> © 2022 Indian Institute of Technology Hyderabad, Kandi, Sangareddy, Telangana, India. All
+                            rights reserved.</p>
 
-                        <p>Sitemap | RTI |<a href="mailto:lit_soc@gymkhana.iith.ac.in" class="text-white ">Contact us</a>   | हिंदी वेबसाइट |</p>
+                        <p>Sitemap | RTI |<a href="mailto:lit_soc@gymkhana.iith.ac.in" class="text-white ">Contact
+                                us</a> | हिंदी वेबसाइट |</p>
                         <p class="text-white ">© 2022 Zozimus, IIT Hyderabad. All rights reserved.</p>
                     </div>
 
@@ -519,28 +1384,38 @@
                         <div class="text-center text-md-right">
                             <ul class="list-unstyled list-inline">
                                 <li class="list-inline-item">
-                                    <a class="btn-floating btn-sm  mx-1 h-effect " href="https://www.facebook.com/zozimus.iith/" target="_blank">
+                                    <a class="btn-floating btn-sm  mx-1 h-effect "
+                                        href="https://www.facebook.com/zozimus.iith/" target="_blank">
                                         <!-- <i class="fab fa-2x fa-facebook-f  rounded-circle px-2 py-1  "
                                             style="color: white; background: #1877F2;"></i> -->
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="grey" class="bi bi-facebook social-icon" viewBox="0 0 16 16">
-                                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                                              </svg>
-                                              
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="grey"
+                                            class="bi bi-facebook social-icon" viewBox="0 0 16 16">
+                                            <path
+                                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                        </svg>
+
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a class="btn-floating btn-sm  mx-1 h-effect " href="https://twitter.com/Zozimus_IITH?t=0G0566kVgDGoF3DXSSmKqA&s=09" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="grey" class="bi bi-twitter social-icon" viewBox="0 0 16 16">
-                                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-                                          </svg>
+                                    <a class="btn-floating btn-sm  mx-1 h-effect "
+                                        href="https://twitter.com/Zozimus_IITH?t=0G0566kVgDGoF3DXSSmKqA&s=09"
+                                        target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="grey"
+                                            class="bi bi-twitter social-icon" viewBox="0 0 16 16">
+                                            <path
+                                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                        </svg>
                                     </a>
                                 </li>
 
                                 <li class="list-inline-item">
-                                    <a class="btn-floating btn-sm  mx-1 h-effect "href=" https://www.instagram.com/zozimus.iith/?hl=en" target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="grey" class="bi bi-instagram social-icon" viewBox="0 0 16 16">
-                                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-                                          </svg>
+                                    <a class="btn-floating btn-sm  mx-1 h-effect "
+                                        href=" https://www.instagram.com/zozimus.iith/?hl=en" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="grey"
+                                            class="bi bi-instagram social-icon" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                        </svg>
                                     </a>
                                 </li>
                             </ul>
