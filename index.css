@@ -573,3 +573,10 @@ html, body {
         background: #e1e5ea;
     }
 }
+
+#Schedule img {
+    padding: 5%;
+    margin: auto;
+    display: block;
+    max-width: 700px;
+}
