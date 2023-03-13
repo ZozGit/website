@@ -17,6 +17,13 @@ html, body {
     background: black;
 } */
 
+.center {
+    display: block;
+    margin-left: 20rem;
+    margin-right: auto;
+    width: 50%;
+    padding-left: 50px;
+  }
 
 .scaleDown_Zoz {
     animation: scaleDown_Zoz 1.5s ease-out;
@@ -91,13 +98,13 @@ html, body {
 .nav-name {
     font-size: 1.6rem;
     font-weight: bolder;
-    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-element {
     font-size: 1.2rem;
     padding-right:15px ;
-    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -112,24 +119,37 @@ html, body {
 .h1-main {
     font-size: 6rem;
     font-weight: bolder;
-    font-family: 'Orelega One', cursive;
+    font-family: 'Roboto', cursive;
+}
+
+.h2-main {
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: 'Roboto', cursive;
 }
 
 .h3-main {
     font-size: 2rem;
-    font-family: 'Handlee', cursive;
+    font-family: 'Roboto', cursive;
 
 }
 
 .h4-main {
     font-size: 1.7rem;
-    font-family: 'Handlee', cursive;
+    font-family: 'Roboto', cursive;
 
 }
 
+.h5-main {
+    font-size: 1.5rem;
+    font-family: 'Roboto', cursive;
+
+}
+
+
 .about-head {
     font-weight: bolder;
-    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2.5rem;
 }
 
@@ -154,7 +174,7 @@ html, body {
 
 .about-text {
     font-size: 1.6rem;
-    font-family: 'Handlee', cursive;
+    font-family: 'Roboto', cursive;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -221,10 +241,10 @@ html, body {
 }
 
 
-.shadowed {
-    /*box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);*/
+/* .shadowed {
+    /*box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     box-shadow:0 10px 16px 0 rgba(0,0,0,0.6),0 6px 20px 0 rgba(0,0,0,0.55);
-}
+} */
 
 .btn-custom {
     display: inline-block;
@@ -394,7 +414,7 @@ html, body {
 .domain-heading {
     /*font-family: 'Satisfy', cursive;*/
     /* font-family: 'Source Serif Pro', serif; */
-    font-family: 'Handlee', cursive;
+    font-family: 'Roboto', cursive;
     font-size: 2.2rem;
     text-align: center;
     font-weight: bold;
