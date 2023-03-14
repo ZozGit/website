@@ -677,3 +677,16 @@ html, body {
     display: block;
     max-width: 700px;
 }
+
+.team_fontcolor{
+    color: #D2D2D2;
+    transform: scale(0.95);
+}
+
+.team_phoneno {
+    color: #D2D2D2;
+}
+
+.team_phoneno:hover{
+    color: white;
+}
