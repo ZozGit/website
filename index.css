@@ -17,12 +17,15 @@ html, body {
     background: black;
 } */
 
+.img_zoz-container{
+    display: flex;
+}
+
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 55%;
-    padding-left: 50px;
+    Justify-content: center;
+    align-items: center;
+    Margin: 0 auto;
+    width: 40%;
     /* padding-right: 50px; */
   }
 
@@ -111,6 +114,8 @@ html, body {
 
 .main-intro {
     padding-top: 8rem;
+    padding-bottom: 0;
+    margin: 0;
 }
 
 .text-container {
