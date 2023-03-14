@@ -164,16 +164,16 @@ html, body {
         font-size: 30px;
     }
     .h2-main{
-        font-size: 20px;
+        font-size: 25px;
     }
     .h3-main {
-        font-size: 15px;
+        font-size: 20px;
     }
     .h4-main {
-        font-size: 12px;
+        font-size: 15px;
     }
     .h5-main {
-        font-size: 10px;
+        font-size: 12px;
     }
     .img-fluid-carousel {
         height:400px ;
@@ -452,7 +452,7 @@ html, body {
 
 @media (max-width: 576px) {
     .domain-heading {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 
     .person-info {
