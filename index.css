@@ -19,17 +19,22 @@ html, body {
 
 .img_zoz-container{
     display: flex;
+    width: 130%;
+    Justify-content: left;
+    align-items: left;
 }
 
-.center {
-    Justify-content: center;
-    align-items: center;
-    Margin: 0 auto;
-    width: 40%;
-    /* padding-right: 50px; */
-  }
+@font-face {
+    font-family: Atures300;
+    src: url(Atures-300_PERSONAL_USE.ttf);
+}
 
-.scaleDown_Zoz {
+.title_zoz{
+    align-self: center;
+
+}
+
+/* .scaleDown_Zoz {
     animation: scaleDown_Zoz 1.5s ease-out;
     animation-iteration-count: 1;
     opacity: 1.0;
@@ -91,7 +96,7 @@ html, body {
         opacity: 1;
     }
   }
-  
+   */
 
 @media only screen and (max-width: 992px) {
     .navbar-nav.navbar-center {
@@ -131,7 +136,7 @@ html, body {
 .h2-main {
     font-size: 4rem;
     font-weight: bolder;
-    font-family: 'Roboto', cursive;
+    font-family: 'Atures300', cursive;
 }
 
 .h3-main {
@@ -164,7 +169,7 @@ html, body {
         font-size: 30px;
     }
     .h2-main{
-        font-size: 25px;
+        font-size: 30px;
     }
     .h3-main {
         font-size: 20px;
