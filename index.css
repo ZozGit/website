@@ -694,8 +694,10 @@ html, body {
 
 .team_phoneno {
     color: #D2D2D2;
+    font-size: 80%;
 }
 
 .team_phoneno:hover{
-    color: white;
+    color: #D2D2D2;
 }
+
