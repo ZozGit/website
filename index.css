@@ -184,8 +184,11 @@ html, body {
         height:400px ;
         margin: auto;
     }
-    .about-head {
-        font-size: 25px;
+}
+
+@media only screen and (max-width: 576px) {
+    .about-head{
+        font-size: 2rem;
     }
 }
 
@@ -701,3 +704,6 @@ html, body {
     color: #D2D2D2;
 }
 
+.team{
+    height: 250px;
+}
