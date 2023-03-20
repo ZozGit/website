@@ -740,6 +740,7 @@ h2 {
 
 .merchButton{
     border-color: #000000;
+    /* background-color: white; */
     border-width: 1px;
     border-radius: 1%;
     border-style: groove;
