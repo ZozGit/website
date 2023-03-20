@@ -128,7 +128,7 @@ html, body {
 }
 
 .h1-main {
-    font-size: 6rem;
+    font-size: 5.4rem;
     font-weight: bolder;
     font-family: 'Roboto', cursive;
 }
@@ -146,7 +146,7 @@ html, body {
 }
 
 .h4-main {
-    font-size: 1.7rem;
+    font-size: 1.55rem;
     font-family: 'Roboto', cursive;
 
 }
@@ -166,7 +166,7 @@ html, body {
 
 @media only screen and (max-width: 768px) {
     .h1-main {
-        font-size: 30px;
+        font-size: 52px;
     }
     .h2-main{
         font-size: 30px;
