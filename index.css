@@ -9,6 +9,9 @@ html, body {
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+h2 {
+    font-size:medium;
+}
 
 /* .navbar-nav.navbar-center {
     position: absolute;
@@ -546,10 +549,17 @@ html, body {
     font-size: 1.75rem;
 }
 .postcard .postcard__img {
-    max-height: 180px;
-    width: 100%;
+    height: 400px;
+    width: 400px;
     object-fit: cover;
     position: relative;
+}
+.post_img{
+    width: 110%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
 }
 .postcard .postcard__img_link {
     display: contents;
