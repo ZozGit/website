@@ -9,9 +9,6 @@ html, body {
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
-h2 {
-    font-size:medium;
-}
 
 /* .navbar-nav.navbar-center {
     position: absolute;
@@ -131,7 +128,7 @@ h2 {
 }
 
 .h1-main {
-    font-size: 5.4rem;
+    font-size: 6rem;
     font-weight: bolder;
     font-family: 'Roboto', cursive;
 }
@@ -149,7 +146,7 @@ h2 {
 }
 
 .h4-main {
-    font-size: 1.55rem;
+    font-size: 1.7rem;
     font-family: 'Roboto', cursive;
 
 }
@@ -169,7 +166,7 @@ h2 {
 
 @media only screen and (max-width: 768px) {
     .h1-main {
-        font-size: 52px;
+        font-size: 30px;
     }
     .h2-main{
         font-size: 30px;
@@ -202,7 +199,7 @@ h2 {
 
 @media only screen and (max-width: 1500px) {
     .about-text{
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 .car-img {
@@ -474,7 +471,7 @@ h2 {
 
 .general-guidelines-cont{
     padding: 0 22rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 @media (max-width: 1286px) {
@@ -495,6 +492,7 @@ h2 {
 @media (max-width: 526px) {
     .general-guidelines-cont{
         padding: 0 3rem;
+        font-size: 1rem;
     }
 }
 
@@ -549,17 +547,10 @@ h2 {
     font-size: 1.75rem;
 }
 .postcard .postcard__img {
-    height: 400px;
-    width: 400px;
+    max-height: 180px;
+    width: 100%;
     object-fit: cover;
     position: relative;
-}
-.post_img{
-    width: 110%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    object-fit: contain;
 }
 .postcard .postcard__img_link {
     display: contents;
@@ -740,7 +731,6 @@ h2 {
 
 .merchButton{
     border-color: #000000;
-    /* background-color: white; */
     border-width: 1px;
     border-radius: 1%;
     border-style: groove;
