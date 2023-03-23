@@ -408,7 +408,7 @@ h2 {
 
 #MainEvents .card .card-img-top {
     height: auto;
-    max-width: 286px;
+    max-width: 230px;
 }
 
 @media (min-width: 576px) {
