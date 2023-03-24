@@ -556,7 +556,7 @@ h2 {
 }
 .post_img{
     width: 110%;
-    height: 400px;
+    /* height: 400px; */
     display: flex;
     justify-content: center;
     object-fit: contain;
@@ -631,6 +631,8 @@ h2 {
         justify-content: start;
     }
     .postcard .postcard__img {
+        width: 400px;
+        height: 400px;
         max-width: 300px;
         max-height: 100%;
         transition: transform 0.3s ease;
@@ -649,7 +651,7 @@ h2 {
         width: 55px;
     }
     .postcard:hover .postcard__img {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
     .postcard:nth-child(2n+1) {
         flex-direction: row;
@@ -659,11 +661,9 @@ h2 {
     }
     .postcard:nth-child(2n+1) .postcard__text::before {
         left: -12px !important;
-        transform: rotate(4deg);
     }
     .postcard:nth-child(2n+0) .postcard__text::before {
         right: -12px !important;
-        transform: rotate(-4deg);
     }
 }
 @media screen and (min-width: 1024px) {
