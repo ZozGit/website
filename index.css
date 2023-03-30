@@ -425,6 +425,17 @@ h2 {
     }
 }
 
+.mainsubheading{
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 576px){
+    .mainsubheading{
+        font-size: 1.6rem;
+    }
+}
 
 .enlarge-on-hover {
     transition: transform .25s;
